@@ -23,22 +23,24 @@ def daka(stu_id,name,receiver):
         'Accept-Encoding': 'gzip, deflate, br'
     }
     data = {
-        "jsonnumber": stu_id,
-        "jsonname": name,
+        "jsonnumber": 1120201413,
+        "jsonname": 武照林,
         "jsonclass": "2020级硕士研究生中队",
         "morning": "36.2℃",
         "afternoon": "36.2℃",
         "night": "36.2℃",
         "jsonbody": 1,
         "jsonbodychangeinfo": "",
-        "textarea": "在校",
-        "textprople": "同学",
+        "textarea": "在家",
+        "textprople": "母亲",
         "jsontouch": 1,
         "jsontouchchangeinfo": 0,
         "jsonisolate": 1,
         "jsonisolatechangeinfo": 0,
-        "latitude": 38.869938,
-        "longitude": 121.527683, 
+        "latitude": 41.24548,
+        "longitude": 119.40134, 
+#         "latitude": 38.869938,
+#         "longitude": 121.527683, 
     }
     url = 'https://www.informationofdum.com/DMU_WEB/student_5/info/?'
     url += urlencode(data)
