@@ -40,7 +40,7 @@ def daka(stu_id,name,receiver):
         "latitude": 41.24548,
         "longitude": 119.40134, 
 #         "latitude": 38.869938,
-#         "longitude": 121.527683, 1
+#         "longitude": 121.527683, 11
     }
     url = 'https://www.informationofdum.com/DMU_WEB/student_5/info/?'
     url += urlencode(data)
