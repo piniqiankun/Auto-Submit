@@ -23,8 +23,8 @@ def daka(stu_id,name,receiver):
         'Accept-Encoding': 'gzip, deflate, br'
     }
     data = {
-        "jsonnumber": 1120201413,
-        "jsonname": 武照林,
+        "jsonnumber": stu_id,
+        "jsonname": name,
         "jsonclass": "2020级硕士研究生中队",
         "morning": "36.2℃",
         "afternoon": "36.2℃",
