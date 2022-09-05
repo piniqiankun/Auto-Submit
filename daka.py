@@ -33,14 +33,27 @@ def daka(stu_id,name,receiver):
         "jsonbodychangeinfo": "",
         "textarea": "在家",
         "textprople": "母亲",
+        # "textarea": "英华一-扬帆楼",
+        # "textprople": "同学&室友",
         "jsontouch": 1,
         "jsontouchchangeinfo": 0,
         "jsonisolate": 1,
         "jsonisolatechangeinfo": 0,
-        "latitude": 41.24548,
-        "longitude": 119.40134, 
-#         "latitude": 38.869938,
-#         "longitude": 121.527683, 11
+        # 钢达花苑
+        "latitude":  41.26224,
+        "longitude": 119.41051,
+        # 电业小区
+        # "latitude": 41.24548,
+        # "longitude": 119.40134,
+        # 学校：英华一
+        # "latitude": 38.87408,
+        # "longitude": 121.52976
+        # 学校：扬帆楼
+        # "latitude": 38.869938,
+        # "longitude": 121.527683, 11
+        # 学校
+        # "latitude": 38.869938,
+        # "longitude": 121.527683, 11
     }
     url = 'https://www.informationofdum.com/DMU_WEB/student_5/info/?'
     url += urlencode(data)
